@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Niq Rezaireel | IT Student Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#F5F8FC;--ink:#12263F;--muted:#4D6178;--line:#D3DEEB;--blue:#1F4E79;--sky:#2E74B5;--card:#FFFFFF;--hero:#12304F;--heroink:#F2F7FC;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#0D1826;--ink:#E6EEF7;--muted:#9DB0C5;--line:#24374D;--blue:#7DB3E8;--sky:#7DB3E8;--card:#13233A;--hero:#0A1524;--heroink:#F2F7FC}}
+:root[data-theme="dark"]{--paper:#0D1826;--ink:#E6EEF7;--muted:#9DB0C5;--line:#24374D;--blue:#7DB3E8;--sky:#7DB3E8;--card:#13233A;--hero:#0A1524;--heroink:#F2F7FC}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Sans 3",Arial,sans-serif;font-size:18px;line-height:1.6}
+h1,h2,h3{font-family:"Bricolage Grotesque",Arial,sans-serif;line-height:1.15;margin:0}
+a{color:var(--sky)}
+a:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.wrap{max-width:900px;margin:0 auto;padding:0 24px}
+header.hero{background:var(--hero);color:var(--heroink);padding:72px 0 64px}
+.hero h1{font-size:clamp(2.6rem,8vw,5rem);font-weight:800;letter-spacing:-.02em;max-width:12ch}
+.hero p.role{font-size:1.25rem;margin:20px 0 0;max-width:34em;color:#C5D8EC}
+.hero .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;font-weight:600;text-decoration:none;background:#fff;color:#12304F}
+.btn.alt{background:transparent;color:#fff;border:1.5px solid #7DB3E8}
+section{padding:56px 0 0}
+h2{font-size:1.9rem;color:var(--blue);padding-bottom:10px;border-bottom:2px solid var(--blue);margin-bottom:24px}
+.about p{max-width:62ch;margin:0 0 14px}
+.stack{display:grid;gap:18px}
+.row{display:grid;grid-template-columns:170px 1fr;gap:8px 24px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.row dt{font-weight:600;color:var(--blue)}
+.row dd{margin:0}
+.proj{border-left:4px solid var(--sky);padding:2px 0 2px 20px;margin-bottom:34px}
+.proj h3{font-size:1.4rem;color:var(--ink)}
+.proj .tools{color:var(--muted);margin:4px 0 10px}
+.proj ul{margin:0;padding-left:20px;max-width:64ch}
+.proj li{margin-bottom:4px}
+.edu{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 20px;margin-bottom:6px}
+.edu strong{color:var(--blue)}
+.muted{color:var(--muted)}
+footer{margin-top:64px;background:var(--hero);color:var(--heroink);padding:48px 0 56px}
+footer h2{color:var(--heroink);border-color:#7DB3E8}
+footer a{color:#9CC8F2;font-size:1.15rem}
+footer p{margin:6px 0}
+@media (max-width:620px){.row{grid-template-columns:1fr}body{font-size:17px}header.hero{padding:56px 0 48px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <h1>Niq Rezaireel</h1>
+    <p class="role">Diploma in Information Technology student at UniKL MIIT. I build web applications with PHP and MySQL, and design the screens people use to work with them.</p>
+    <div class="links">
+      <a class="btn" href="#projects">See my projects</a>
+      <a class="btn alt" href="#contact">Contact me</a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="about" id="about">
+    <h2>About me</h2>
+    <p>I am a final year IT student with a CGPA of 3.20, based in Kuala Lumpur. My coursework and team projects have given me hands-on practice in system development, database management and user-interface design.</p>
+    <p>I learn by building. When a project needs a tool I have not used, I pick it up and use it in the work. I am looking for an internship where I can learn from experienced people and contribute to real projects.</p>
+    <p class="muted">Languages: Malay (native), English (fluent).</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <dl class="stack" style="margin:0">
+      <div class="row"><dt>Programming and web</dt><dd>PHP, HTML, CSS, JavaScript, Bootstrap</dd></div>
+      <div class="row"><dt>Database</dt><dd>MySQL, phpMyAdmin</dd></div>
+      <div class="row"><dt>Tools</dt><dd>Visual Studio, XAMPP, Figma</dd></div>
+      <div class="row"><dt>Documentation</dt><dd>Microsoft Word, Excel and PowerPoint for reports and presentations</dd></div>
+      <div class="row"><dt>Currently learning</dt><dd>Frontend: React.js, Tailwind CSS. Backend: Node.js, Express.js, Laravel, RESTful APIs</dd></div>
+      <div class="row"><dt>Working style</dt><dd>Teamwork, communication, problem solving, time management, willingness to learn</dd></div>
+    </dl>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <article class="proj">
+      <h3>UniConnect+: Smart Event Participation and Attendance System</h3>
+      <p class="tools">Final year project | PHP, MySQL</p>
+      <ul>
+        <li>Built user and admin modules to streamline booking and approval.</li>
+        <li>Added auto-approval, cancellation and form validation for reliability.</li>
+        <li>Integrated the database to track room availability and booking records.</li>
+      </ul>
+    </article>
+    <article class="proj">
+      <h3>Event Management System</h3>
+      <p class="tools">PHP, MySQL</p>
+      <ul>
+        <li>Developed a full CRUD web application for events, venues and participants.</li>
+        <li>Implemented secure login with role-based access control for Admin and User.</li>
+        <li>Connected the frontend to MySQL for dynamic data storage and retrieval.</li>
+      </ul>
+    </article>
+    <article class="proj">
+      <h3>SmartClothing</h3>
+      <p class="tools">Figma | UI/UX design</p>
+      <ul>
+        <li>Designed interactive prototypes for a grocery planning and budgeting web app.</li>
+        <li>Ran UI/UX evaluation and heuristic analysis to improve usability.</li>
+        <li>Worked with the team on user flows, wireframes and high-fidelity designs.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="education">
+    <h2>Education and awards</h2>
+    <div class="edu"><strong>Universiti Kuala Lumpur MIIT</strong><span class="muted">2023 to present</span></div>
+    <p style="margin:0 0 18px">Diploma in Information Technology. CGPA 3.20.</p>
+    <div class="edu"><strong>SMK Taman Cheras Jaya</strong><span class="muted">Sijil Pelajaran Malaysia (SPM)</span></div>
+    <p style="margin:18px 0 0">Dean's List Award, 1 semester.</p>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>Open to internship opportunities. Send me a message.</p>
+    <p><a href="mailto:niqafandi@gmail.com">niqafandi@gmail.com</a></p>
+    <p><a href="tel:+60132161146">+60 13 216 1146</a></p>
+    <p class="muted" style="color:#C5D8EC">Kuala Lumpur, Malaysia</p>
+  </div>
+</footer>
+</body>
+</html>
